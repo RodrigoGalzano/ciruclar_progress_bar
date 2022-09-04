@@ -20,7 +20,7 @@ class MainWindow(QMainWindow):
 
         self.progress = CircularProgress()
         self.progress.value = 50
-        self.progress.progress_width = 15
+        self.progress.progress_width = 10
         self.progress.add_shadow(True)
         self.progress.setMinimumSize(self.progress.width, self.progress.height)
 
